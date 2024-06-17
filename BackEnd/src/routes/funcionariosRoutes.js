@@ -1,9 +1,10 @@
 import express from "express";
 import funcionarioController from "../controllers/funcionarioController.js";
+import { autenticado } from "../middleware/autenticado.js";
 
 const routes = express.Router();
 
-routes.get('/Funcionarios', funcionarioController.getFuncionario);
+routes.get('/Funcionarios', autenticado, funcionarioController.getFuncionario);
 routes.get('/Funcionarios/:id', funcionarioController.getFuncionarioById);
 routes.get('/Funcionarios/nome/:nome', funcionarioController.getFuncionarioByName);
 routes.get('/Funcionarios/cpf/:cpf', funcionarioController.getFuncionarioByCpf);
