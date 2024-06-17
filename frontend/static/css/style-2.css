@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
 
 :root {
     --color-header-1: #319190;
@@ -52,6 +54,15 @@ body {
     flex-direction: row;
     gap: 3rem;
 }
+.container-body{
+    padding-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-body-title{
+    text-align: center;
+}
 
 .animais-adocao {
     display: flex;
@@ -99,6 +110,37 @@ body {
     text-align: center;
 }
 
+.container-login{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.login-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.login-input label{
+    text-align: start;
+}
+
+.login-input-campos{
+    margin-bottom: 2rem;
+}
+
+.login-title{
+    margin-top: 5rem;
+    font-size: 2em;
+}
+
+.button-adocao{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
 .content-body-default {
     display: flex;
     flex-direction: column;
@@ -228,7 +270,10 @@ header{
 .title{
     color: var(--color-text);
     z-index: 2;
-    font-size: 40px;
+    font-size: 3em;
+    font-family: "Poor Story";
+    margin-top: 2.5rem;
+    margin-left: 0.5rem;
 }
 
 .content{
@@ -261,7 +306,7 @@ footer {
     position: relative;
     bottom: 0;
     background: linear-gradient(to right,var(--color-header-1) 10%, var(--color-header-2) 90%);
-    width: 100vw;
+    width: 100%;
     height: 125px;
     justify-content: space-between;
     align-items: center;
@@ -419,7 +464,7 @@ select{
         gap: 1rem;
         position: relative;
         background: linear-gradient(to right,var(--color-header-1) 10%, var(--color-header-2) 90%);
-        width: 100vw;
+        width: 100%;
         top: 0;
         height: 150px;
         z-index: 1;
@@ -465,13 +510,14 @@ select{
     .login{
         display: flex;
         flex-direction: column;
-        align-self: center;
-        font-size: small;
+        justify-content: center;
+        font-size: 1.5em;
         align-items: center;
         gap: 5rem;
     }
     .login p{
         font-weight: bold;
+        text-align: center;
     }
     .login div{
         display: flex;
@@ -479,10 +525,10 @@ select{
         font-weight: bold;
     }
     .login div #cpf{
-        width: 300px;
+        width: 18.75rem;
     }
     .login div #senha{
-        width: 300px;
+        width: 18.75rem;
     }
     .login a{
         color: var(--color-header-2);
@@ -501,7 +547,7 @@ select{
         position: absolute;
         bottom: 0 !important;
         background: linear-gradient(to right,var(--color-header-1) 10%, var(--color-header-2) 90%);
-        width: 100vw;
+        width: 100%;
         height: 125px;
         justify-content: space-between;
         align-items: center;
