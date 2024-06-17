@@ -40,6 +40,15 @@
     flex-direction: row;
     gap: 3rem;
 }
+.container-body{
+    padding-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-body-title{
+    text-align: center;
+}
 
 .animais-adocao {
     display: flex;
