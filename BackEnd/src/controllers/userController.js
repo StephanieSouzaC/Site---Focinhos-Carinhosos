@@ -2,6 +2,7 @@ import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 import funcionario from '../models/Funcionario.js';
 import validarCPF from '../services/validadorCpf.js';
+import jsonSecret from '../config/secret.js'
 
 const secret = 'your_jwt_secret';
 
@@ -33,8 +34,9 @@ export const login = async (req, res) => {
       return res.status(401).send({ error: 'CPF ou Senha inválida' });
     }
 
-    const token = jwt.sign({ userId: Funcionario._id }, secret, { expiresIn: '1h' });
+    const token = jwt.sign({ userId: Funcionario._id }, jsonSecret.secret, { expiresIn: '1h' });
     res.send({ token });
+    return token;
   } catch (error) {
     console.log('Erro durante login:', error);
     res.status(500).send({ error: 'Login falhou' });
