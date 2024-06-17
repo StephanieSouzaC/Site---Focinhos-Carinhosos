@@ -57,40 +57,40 @@
             <div class="login-title">
             <p>CADASTRO DE ANIMAIS</p>
         </div>
-
-            <div>
+        <div class="login-input-campos">
                 <label for="nome">NOME</label>
                 <input type="text" name="nome" id="nome" required placeholder="EX: CHICO" onchange="getIdandUpdate(this.value)">
             </div>
             <div class="cad-box">
-                <div><label for="tipo">TIPO</label>
+                <div class="login-input-campos"><label for="tipo">TIPO</label>
                     <input type="text" name="tipo" id="tipo" required placeholder="EX: CACHORRO"></div>
-                <div><label for="idade">IDADE</label>
+                <div class="login-input-campos"><label for="idade">IDADE</label>
                     <input type="text" name="idade" id="idade" required placeholder="EX: 6"></div>
-                <div><label for="porte">PORTE</label>
+                <div class="login-input-campos"><label for="porte">PORTE</label>
                     <input type="text" name="porte" id="porte" required placeholder="EX: GRANDE"></div>
             </div>
 
             <div class="cad-box">
-                <div><label for="cor">COR</label>
+                <div class="login-input-campos"><label for="cor">COR</label>
                     <input type="text" name="cor" id="cor" required placeholder="EX: CARAMELO"></div>
-                <div><label for="imagem">IMAGEM</label>
-                    <input type="text" name="imagem" id="imagem" required></div>
+                <div class="login-input-campos"><label for="imagem">IMAGEM</label>
+                    <input type="file" name="imagem" id="imagem" required></div>
             </div>
 
-            <div>
+            <div class="login-input-campos">
                 <label for="obs">OBSERVAÇÃO</label>
                 <input type="text" name="obs" id="obs" required placeholder="EX: ALGO IMPORTANTE SOBRE O ANIMAL">
             </div>
+            </div>
 
-
+            <div class="button-adocao">
             <div style="display: flex; flex-direction: row; gap: 5rem;">
                 <button onclick="cadAnimais()">REGISTRAR</button>
                 <button onclick="animaisAlt()">ALTERAR</button>
             </div>
         </div>
+        </div>
     </div>
-
 </div>
 </div>
 
