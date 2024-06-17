@@ -53,37 +53,39 @@
 <div class="container-body">
     <div class="content-body">
         <div class="login">
+            <div class="login-title">
             <p>CADASTRO DE FUNCIONÁRIOS</p>
+        </div>
 
-
-            <div>
-                <label for="nome">NOME</label>
+            <div class="login-input-campos">
+                <label class="" for="nome">NOME</label>
                 <input type="text" name="nome" id="nome" required placeholder="EX: JOSÉ DA SILVA" onchange="requestFuncionarios(this.value)">
             </div>
             <div class="cad-box">
-                <div><label for="email">EMAIL</label>
+                <div class="login-input-campos"><label for="email">EMAIL</label>
                     <input type="text" name="email" id="email" required placeholder="EX: meuemail@gmail.com"></div>
-                <div><label for="cpf">CPF</label>
+                <div class="login-input-campos"><label for="cpf">CPF</label>
                     <input type="text" name="cpf" id="cpf" required placeholder="EX: 000.000.000-00"></div>
             </div>
 
             <div class="cad-box">
-                <div><label for="telefone">TELEFONE</label>
+                <div class="login-input-campos"><label for="telefone">TELEFONE</label>
                     <input type="text" name="telefone" id="telefone" required placeholder="EX: (11) 11111-1111"></div>
-                <div><label for="data-nasc">DATA DE NASCIMENTO</label>
+                <div class="login-input-campos"><label for="data-nasc">DATA DE NASCIMENTO</label>
                     <input type="date" name="data-nasc" id="data-nasc" required placeholder="EX: 01/01/2001"></div>
             </div>
 
             <div class="cad-box">
-                <div><label for="senha">SENHA</label>
+                <div class="login-input-campos"><label for="senha">SENHA</label>
                     <input type="password" name="senha" id="senha" required placeholder="REGISTRE SUA SENHA AQUI"></div>
-                <div><label for="funcao">FUNÇÃO</label>
+                <div class="login-input-campos"><label for="funcao">FUNÇÃO</label>
                     <input type="text" name="funcao" id="funcao" placeholder="EX: VETERINÁRIO" required></div>
             </div>
-
+            <div class="button-adocao">
             <div style="display: flex; flex-direction: row; gap: 5rem;">
                 <button onclick="cadFuncionarios()">REGISTRAR</button>
                 <button onclick="funcionariosAlt()">ALTERAR</button>
+            </div>
             </div>
         </div>
     </div>
