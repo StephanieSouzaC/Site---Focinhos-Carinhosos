@@ -28,6 +28,8 @@
 
 :small_blue_diamond: [Layout da Aplicação](#layout-da-aplicação-computer)
 
+:small_blue_diamond: [Pitch da Aplicação](#pitch-da-aplicação-computer)
+
 :small_blue_diamond: [Linguagens, dependencias e libs utilizadas](#linguagens-dependencias-e-libs-utilizadas-books)
 
 :small_blue_diamond: [Desenvolvedores](#desenvolvedores-octocat)
@@ -120,6 +122,9 @@ npm start
 ## Layout da Aplicação :computer:
 - [Figma Apresentação Desktop](https://www.figma.com/proto/dEolbgGYzJT8vGXr2dHtnq/Apresenta%C3%A7%C3%A3o-FocinhosCarinhosos?node-id=41-318&t=V5rGRmd96C58MFC5-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=41%3A318)
 - [Figma Apresentação Mobile](https://www.figma.com/proto/dEolbgGYzJT8vGXr2dHtnq/Apresenta%C3%A7%C3%A3o-FocinhosCarinhosos?node-id=41-412&t=V5rGRmd96C58MFC5-0&scaling=scale-down&content-scaling=fixed&page-id=1%3A707&starting-point-node-id=41%3A335&show-proto-sidebar=1)
+
+## Pitch da Aplicação :computer:
+- [Pitch da Aplicação]()
 
 ## Linguagens, dependencias e libs utilizadas :books:
 
