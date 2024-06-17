@@ -236,7 +236,7 @@ function buscarAnimal(value) {
     var nome = document.getElementById("nome").value;
     console.log(nome);
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', '/Animais/tipo/' + value.toLowerCase(), true);
+    xhr.open('GET', '/Animais/tipo/' + value, true);
 
     xhr.onreadystatechange = function() {
         if (xhr.readyState === XMLHttpRequest.DONE) {

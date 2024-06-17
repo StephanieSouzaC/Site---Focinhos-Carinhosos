@@ -35,7 +35,7 @@ const routes = (app) => {
     app.route('/CadFuncionarios.html').get((req, res) => {
         res.status(200).sendFile(path.resolve('../frontend/CadFuncionarios.html'));
     });
-    app.use(express.json(), Animais, Funcionarios, login);
+    app.use(express.json(), Animais, Funcionarios);
 };
 
 export default routes;
