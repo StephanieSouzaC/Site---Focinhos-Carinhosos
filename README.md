@@ -57,15 +57,12 @@ Projeto FullStack para uma ong fictícia Focinhos Carinhososde uma calculadora v
 ## Como rodar a Aplicação Web :computer:
 > Para instalar as dependências e tecnologias do projeto FrontEnd digite em seu terminal:
 ```sh
-cd .\FrontEnd\
+cd .\Site---Focinhos-Carinhosos\
 ```
 ```sh
 npm install
 ```
-> Para iniciar a aplicação FrontEnd, digite no terminal:
-```sh
-npm start
-```
+
 > Para instalar as dependências e tecnologias do projeto BackEnd digite em seu terminal:
 ```sh
 cd .\BackEnd\
@@ -77,6 +74,8 @@ npm install
 ```sh
 npm start
 ```
+
+<p>O projeto deverá ser rodado em http://localhost:8080</p>
 > Observação: para o projeto BackEnd, garanta que o Node.js esteja instalado corretamente em sua máquina. Para instalar o Node.js acesse [Node.js](https://nodejs.org/en/download/prebuilt-installer)
 
 <p> Para conectar ao banco de dados Mongodb crie um documento com o nome ".env" dentro da pasta BackEnd, no mesmo nível da pasta SRC, esse documento já está sendo chamado no arquivo dbConect.js que está localizado na pasta Config, dentro de SRC.</p>
@@ -102,15 +101,12 @@ npm install cors
 npm install dotenv
 ```
 ```sh
-npm install date-fns --save
-```
-```sh
 npm install nodemon
 ```
 
 > Para o projeto FrontEnd, instale em seu terminal a tecnologia abaixo:
 ```sh
-npm install axios
+npm install
 ```
 > Para iniciar o servidor BackEnd, digite em seu terminal:
 ```sh
