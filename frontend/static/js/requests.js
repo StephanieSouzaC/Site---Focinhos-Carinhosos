@@ -1,5 +1,8 @@
 // --------------ANIMAIS-----------------
 
+const tokenJWT = obterCookie('tokenJWT');
+console.log(tokenJWT);
+
 function requestAnimaisAdocao() {
     var xhr = new XMLHttpRequest();
     xhr.open('GET', 'http://localhost:8080/Animais', true);
@@ -569,7 +572,9 @@ function login() {
                 try {
                     var response = JSON.parse(xhr.responseText);
                     console.log('Response:', response);
-                    alert("Login efetuado");
+                    alert("Login efetuado " + response.token);
+                    defineCookie('tokenJWT', response.token)
+                    window.location.href = "../../AdminHomePage.html"
                 } catch (e) {
                     console.error('Error parsing JSON:', e);
                     alert("Erro ao efetuar login");
@@ -676,4 +681,10 @@ function roll() {
 
 document.addEventListener('DOMContentLoaded', roll);
 
+function defineCookie(chave, valor) {
+    document.cookie = `${chave}=${valor};path=/`
+}
 
+function obterCookie(chave) {
+    return document.cookie.split('; ').find((cookie) => cookie.startsWith(`${chave}=`))?.split('=')[1];
+}
