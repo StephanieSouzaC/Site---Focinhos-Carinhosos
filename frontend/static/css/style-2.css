@@ -96,6 +96,37 @@
     text-align: center;
 }
 
+.container-login{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.login-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.login-input label{
+    text-align: start;
+}
+
+.login-input-campos{
+    margin-bottom: 2rem;
+}
+
+.login-title{
+    margin-top: 5rem;
+    font-size: 2em;
+}
+
+.button-adocao{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
 .content-body-default {
     display: flex;
     flex-direction: column;
@@ -258,7 +289,7 @@ footer {
     position: relative;
     bottom: 0;
     background: linear-gradient(to right,var(--color-header-1) 10%, var(--color-header-2) 90%);
-    width: 100vw;
+    width: 100%;
     height: 125px;
     justify-content: space-between;
     align-items: center;
@@ -416,7 +447,7 @@ select{
         gap: 1rem;
         position: relative;
         background: linear-gradient(to right,var(--color-header-1) 10%, var(--color-header-2) 90%);
-        width: 100vw;
+        width: 100%;
         top: 0;
         height: 150px;
         z-index: 1;
@@ -462,13 +493,14 @@ select{
     .login{
         display: flex;
         flex-direction: column;
-        align-self: center;
-        font-size: small;
+        justify-content: center;
+        font-size: 1.5em;
         align-items: center;
         gap: 5rem;
     }
     .login p{
         font-weight: bold;
+        text-align: center;
     }
     .login div{
         display: flex;
@@ -476,10 +508,10 @@ select{
         font-weight: bold;
     }
     .login div #cpf{
-        width: 300px;
+        width: 18.75rem;
     }
     .login div #senha{
-        width: 300px;
+        width: 18.75rem;
     }
     .login a{
         color: var(--color-header-2);
@@ -498,7 +530,7 @@ select{
         position: absolute;
         bottom: 0 !important;
         background: linear-gradient(to right,var(--color-header-1) 10%, var(--color-header-2) 90%);
-        width: 100vw;
+        width: 100%;
         height: 125px;
         justify-content: space-between;
         align-items: center;
