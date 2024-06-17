@@ -61,13 +61,6 @@ body {
     justify-content: center;
 }
 
-.cards-adocao{
-    padding-bottom: 5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-}
 
 .content-body-default{
     display: flex;
@@ -191,12 +184,6 @@ body {
 }
 .container-body-title p {
     text-align: center;
-}
-.animais-adocao {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
 }
 
 .content-body-default {
