@@ -21,7 +21,7 @@ body {
     flex-direction: column;
     justify-content:  center;
     align-items: center;
-    height: 60vh;
+    min-height: 60vh;
 }
 
 .content-body .login div input,
@@ -82,6 +82,9 @@ body {
 .animais-adocao {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
     gap: 6rem;
 }
 
@@ -198,8 +201,10 @@ body {
 
 .content-body-default {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    max-width: 1500px;
+    margin: 2em 0;
 }
 .popup{
     display: flex;
