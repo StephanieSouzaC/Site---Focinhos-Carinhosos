@@ -124,7 +124,7 @@ npm start
 - [Figma Apresentação Mobile](https://www.figma.com/proto/dEolbgGYzJT8vGXr2dHtnq/Apresenta%C3%A7%C3%A3o-FocinhosCarinhosos?node-id=41-412&t=V5rGRmd96C58MFC5-0&scaling=scale-down&content-scaling=fixed&page-id=1%3A707&starting-point-node-id=41%3A335&show-proto-sidebar=1)
 
 ## Pitch da Aplicação :computer:
-- [Pitch da Aplicação]( https://fourmatt-my.sharepoint.com/:v:/r/personal/atila_passos_4matt_com_br/Documents/Área%20de%20Trabalho/gravação/Trabalho%20-%20Focinhos%20Carinhosos.mp4?csf=1&web=1&e=fkzJEs)
+- [Pitch da Aplicação](https://drive.google.com/file/d/1njxRn8L64BeJUxgsmSzXQ_lVy3FSwu0-/view?usp=drive_link)
 
 ## Linguagens, dependencias e libs utilizadas :books:
 
